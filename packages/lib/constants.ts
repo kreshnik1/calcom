@@ -1,7 +1,8 @@
-export const WEBAPP_URL = process.env.NEXT_PUBLIC_WEBAPP_URL || `https://${process.env.VERCEL_URL}`;
+export const WEBAPP_URL = "https://www.calcomtest.up.railway.app" || `https://${process.env.VERCEL_URL}`;
+console.log(WEBAPP_URL,process.env.VERCEL_URL);
 /** @deprecated use `WEBAPP_URL` */
-export const BASE_URL = WEBAPP_URL;
-export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://cal.com";
+export const BASE_URL = "https://www.calcomtest.up.railway.app";
+export const WEBSITE_URL = "https://www.calcomtest.up.railway.app" || "https://cal.com";
 
 // This is the URL from which all Cal Links and their assets are served.
 // Use website URL to make links shorter(cal.com and not app.cal.com)
